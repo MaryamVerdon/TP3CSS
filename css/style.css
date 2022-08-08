@@ -170,6 +170,55 @@ footer ul {
     min-width: 300px ;
 }
 
+footer a {
+    color: black;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
 
+footer a:hover {
+    color: skyblue;
+    border: 1px solid skyblue;
+}
 
+/* ******************* MEDIA QUERIES ************** */
 
+@media  screen and (max-width: 650px ) {
+    
+    .run, .tempus, .magna {
+        display: block;
+    }
+
+    .run {
+        height: auto;
+    }
+
+    .img-banner {
+        height: 50vh;
+        margin-top: 30px;
+    }
+
+    .run-text, .text-right, .text-left {
+        padding: 15px;  
+    }
+
+    footer ul {
+        min-width: 200px;
+    }
+
+    footer a {
+        height: 24px;
+        width: 24px;
+    }
+
+    footer i {
+        font-size: 0.7rem;
+    }
+}
